@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size:62.5%
+}
+body{
+  background: rgb(3,0,31);
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+.App{
+  min-height:100vh;
+  display: flex;
+}
+.sideBar {
+  flex: 3;
+  border-right: 1px solid rgb(200, 200, 200);
+}
+
+.main{
+  flex:9;
+}
+.logo{
+margin-right:1-rem;
+}
+.brand{
+  font-size: 2rem;
+}
+
+.upperSide {
+  padding: 2.5emrem;
+  border-bottom:1px solid rgb(200, 200, 200);
+  height:70%
+}
+
+.upperSideTop{
+  display: flex;
+  align-items:center;
+  margin-bottom:2.5rem;
+}
+
+addBtn{
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+.midBtn{
+  background: #5A4BFF;
+  border: none;
+  padding:1.5rem;
+  font-size:1.5rem;
+  width: 25 rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5;
+}
+.query{
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: rgba(222,222,222,1);
+  padding: 1.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius:0.5rem;
+  border: 1px solid rgba(98,98,98,1)
+
+}
+
+.query>img{
+  margin-right:2rem;
+  object-fit:cover;
+  height: 1.75rem;
+}
+
+.lowerSide{
+  padding: 2rem;
+}
+
+listItems{
+  margin: 0.75rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3 rem;
+}
+
+.listitemsImg{
+  margin: 1 rem;
+  padding-right: 1 rem;
+}
+
+.listItems:nth-child(1)>.listitemsImg{
+  margin-right: 0.5rem;
+}
+
+.listItems:nth-child(3)>.listitemsImg{
+  margin-right: 0.75rem;
+}
+
+.shimmer-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px; /* Rounded corners */
+  background: #444; /* Background color to match the video placeholder */
+}
+
+.shimmer {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #444 0%, #555 50%, #444 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
