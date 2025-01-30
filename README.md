@@ -30,6 +30,7 @@ The app uses **audio and image processing techniques** to extract text and gener
 ---
 
 ## **Methodology**
+![Methodology](assets/Methodology.png)
 ### **1. Data Collection & Preprocessing**
 - Collect videos from a single subject.  
 - Convert video into **audio and image frames**.  
