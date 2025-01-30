@@ -12,7 +12,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 from translate import Translator
 from flask_socketio import SocketIO, emit
 
-
 import os
 import logging
 
@@ -33,13 +32,8 @@ from langchain.schema import HumanMessage
 # os.environ["OPENAI_API_KEY"]=""
 # os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-import hashlib
-import torch
 import os
-from PIL import Image
-from transformers import CLIPProcessor, CLIPModel
-import json
-import urllib.request
+
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
