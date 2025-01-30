@@ -117,4 +117,4 @@ cd Video_Text_Summarisation_And_Prompting
 ---
 
 # Demo Video
-[!demo](assets/DemoVideo.mp4)
+[DemoVideo.mp4](assets/DemoVideo.mp4)
