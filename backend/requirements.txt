@@ -1,0 +1,20 @@
+moviepy
+pytesseract
+ultralytics
+whisper
+langchain
+transformers
+# pytest-shutil
+# pycopy-hashlib
+opencv-python
+# spacy
+scikit-learn
+langchain-openai
+langchain-community
+flask
+flask-cors
+sentence-transformers
+faiss-cpu
+sentencepiece
+translate
+flask-socketio
